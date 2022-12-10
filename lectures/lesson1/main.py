@@ -1,4 +1,7 @@
-list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+import sys
+sys.path.append('/Users/david/Desktop/python/')
 
-for i in list:
-    print(i ** 2)
+from funcs.functions import *
+
+a = Number()
+print(a)
