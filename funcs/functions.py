@@ -1,9 +1,9 @@
 from random import randint
 
-def Number():
-    number = input('Введите число: ')
+def Number(text):
+    number = input(f'{text}: ')
     while(not number.isdigit()):
-        number = input('Вы ввели не число. Попробуйте снова: ')
+        number = input('ОШИБКА. Попробуйте снова: ')
     return int(number)
 
         
