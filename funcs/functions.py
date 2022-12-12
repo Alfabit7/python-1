@@ -1,4 +1,3 @@
-from random import randint
 
 def is_digit(number):
     try:
@@ -10,14 +9,14 @@ def is_digit(number):
 def Number(text):
     number = input(f'{text}')
     while(not is_digit(number)):
-        number = input('ОШИБКА. Попробуйте снова')
+        number = input('ОШИБКА. Попробуйте снова: ')
     return int(number)
 
 
 def is_natural(text):
     number = input(f'{text}')
     while(not number.isdigit()):
-        number = input('ОШИБКА. Попробуйте снова')
+        number = input('ОШИБКА. Попробуйте снова: ')
     return int(number)
 
     
