@@ -1,5 +1,3 @@
-from random import randint
-
 def is_digit(number):
     try:
         int(number)
@@ -12,7 +10,6 @@ def Number(text):
     while(not is_digit(number)):
         number = input('ОШИБКА. Попробуйте снова')
     return int(number)
-
 
 def is_natural(text):
     number = input(f'{text}')
