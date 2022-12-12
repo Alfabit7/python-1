@@ -5,3 +5,4 @@ from funcs.functions import *
 
 a = Number('fuck you')
 print(a)
+
