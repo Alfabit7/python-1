@@ -9,7 +9,7 @@ choco_col = is_natural('Высота шоколадки: ')
 piece = is_natural('Сколько отламываем: ')
 
 if piece <= choco_col * choco_row:
-    if piece == 1 and (piece != choco_col or piece != choco_row):
+    if piece == 1 and (piece != choco_col and piece != choco_row):
         print('Не получится отломить')
     else:
         if not piece % choco_col or not piece % choco_row:
