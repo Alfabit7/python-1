@@ -23,8 +23,7 @@ def round(player, amt, value):
 
 def main_game(candy_value):
     
-    # flag = randint(0, 2)
-    flag = 0
+    flag = randint(0, 2)
     if flag:
         print(f'Первым ходит {player_1}')
     else:
