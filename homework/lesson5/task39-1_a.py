@@ -35,7 +35,7 @@ def main_game():
             flag = 0
             round(player_1, number, candy_value)
         else:
-            number = randint(1, 29)
+            number = randint(1, 28)
             candy_value -= number
             flag = 1
             round(player_2, number, candy_value)
